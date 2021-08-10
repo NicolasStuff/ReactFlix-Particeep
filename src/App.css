@@ -1,0 +1,125 @@
+
+/* General */
+button.btn:focus,
+button.btn:hover {
+  box-shadow: none;
+  outline: none;
+}
+main {
+  background-color: #000;
+  font-family: Helvetica;
+}
+/* Navbar */
+.navbar {
+  background-color: #000;
+}
+.sitetitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* pagination */
+
+.pagination{
+  background-color: #000;
+}
+/* Search Bar */
+.search-input {
+  width: 240px;
+  outline: none;
+  padding: 0 6px;
+  padding-left: 40px;
+  border: 1px solid #fff;
+  /* border-radius: 5em; */
+  background-color: black;
+  line-height: 35px;
+  color: #fff
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  position: relative;
+}
+.search-button {
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  width: 35px;
+  height: auto;
+  outline: none;
+  margin-right: 12.5rem;
+  margin-top: auto;
+  border: 0px solid #406a8e;
+  /* border-radius: 50%; */
+}
+.search-box:hover>.search-button {
+  color: #fff;
+  /* background-color: #406a8e; */
+}
+
+/* Movie Cards */
+
+
+.movie-card {
+  overflow: hidden;
+  background-color: #fff;
+}
+.movie-card img {
+  height: 300px;
+}
+.movie-card img:hover {
+  transform: scale(1.1);
+  transition-duration: .5s;
+}
+.btn-delete {
+  color: #fff!important;
+  background-color: #E40B18!important;
+}
+.active-btn {
+  color: #065fd4!important;
+}
+
+.inactive-btn {
+  color: #E40B18!important;
+}
+
+/* Error message */
+div.row:empty:before {
+  content: 'No results found !';
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.05rem;
+  color: red;
+  font-weight: 600;
+}
+
+/* Filter Checkbox */
+.filter-form {
+  padding: 1.5rem 2rem 0rem;
+  text-align: center;
+}
+.checkbox-select label {
+  padding: 1rem;
+  font-weight: 100;
+  /* font-size: 1.09rem; */
+  color: #fff;
+}
+
+.logoImg {
+  width: 100px;
+  height: auto;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+  .search-box {
+    margin: auto;
+  }
+  .sitetitle {
+    text-align: center;
+    margin: auto!important;
+    padding-bottom: 1.2rem!important;
+  }
+}
