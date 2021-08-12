@@ -5,7 +5,7 @@ import movieAppStore from "./store/store";
 
 const App = () => (
   <Provider store={movieAppStore}>
-    <MovieApp />
+    <MovieApp className='movieMain'/>
   </Provider>
 );
 

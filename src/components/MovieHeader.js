@@ -7,7 +7,7 @@ const MovieHeader = ({ onKeyUpFn }) => {
     <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">
         <a href="/">
-        <img src={logo} className="logoImg"></img>
+        <img src={logo} alt='ReactFlix' className="logoImg"></img>
         </a>
           <TitleFilter onKeyUpFn={onKeyUpFn} />
       </div>

@@ -5,6 +5,10 @@ button.btn:hover {
   box-shadow: none;
   outline: none;
 }
+.movieMain {
+  background-color: #000!important;
+  height: 100vh!important;
+}
 main {
   background-color: #000;
   font-family: Helvetica;
@@ -21,7 +25,24 @@ main {
 /* pagination */
 
 .pagination{
-  background-color: #000;
+  background-color: #fff;
+}
+
+.bodyFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.justifiedContent {
+  justify-content: center;
+  align-items: center;
+}
+.selection {
+  width: 200px;
+}
+
+.pageNumber {
+  margin-top: 30px;
 }
 /* Search Bar */
 .search-input {
@@ -87,11 +108,11 @@ main {
 
 /* Error message */
 div.row:empty:before {
-  content: 'No results found !';
+  content: 'Aucuns résultats !';
   margin: auto;
   padding: 2rem;
   font-size: 1.05rem;
-  color: red;
+  color: #E40B18;
   font-weight: 600;
 }
 
